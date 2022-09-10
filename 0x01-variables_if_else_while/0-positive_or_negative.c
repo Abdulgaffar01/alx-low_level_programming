@@ -1,5 +1,4 @@
 
-
 #include <stdio.h>
 
 #include <stdlib.h>
@@ -9,7 +8,6 @@
 
 
 /**
-
  * main - determine if number is positive or negative
 
  *
@@ -27,6 +25,7 @@
 
 
 int main(void)
+
   
 {
   
