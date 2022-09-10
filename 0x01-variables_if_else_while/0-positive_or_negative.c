@@ -4,6 +4,8 @@
 
 #include <time.h>
 
+
+
 /**
 
  * main - determine if number is positive or negative
@@ -27,8 +29,11 @@ int main(void)
 {
   
   int n;
+  
 
-  x
+  
+
+  
   srand(time(0));
   
   n = rand() - RAND_MAX / 2;
