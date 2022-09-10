@@ -2,26 +2,30 @@
 
 
 /**
- * main - Entry point
- * description - prints lowercase alphabets
+ * main - Print the alphabet in lowercase letters, except for e and q
+ * duscription: print out lowercase
  * Return: Always 0 (Success)
  */
 
 int main(void)
+
 {
 
-int ch;
+char letter;
 
-for (ch = 'a', ch <= 'z'; ch++)
+
+for (letter = 'a'; letter <= 'z'; letter++)
+
 {
-if (ch != 'e' && ch != 'q')
-{
-putchar(ch);
+
+if (letter != 'e' && letter != 'q')
+
+putchar(letter);
+
 }
-else
-{
-}
-}
+
 putchar('\n');
+
 return (0);
+
 }
