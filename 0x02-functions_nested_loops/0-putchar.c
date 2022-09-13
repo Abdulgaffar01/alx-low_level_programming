@@ -1,21 +1,24 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * main - Entry point
- *
- * Description: A simple C program to print _putchar
- *
- * Return: 0
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
  */
 
 int main(void)
+
 {
-char arr[] = "_putchar";
-int index;
 
-for (index = 0; index < 8; index++)
-_putchar(arr[index]);
+char abe[] = "_putchar";
+int c;
 
+for (c = 0; c < 8; c++)
+
+{
+_putchar(abe[c]);
+
+}
 _putchar('\n');
+
 return (0);
 }
