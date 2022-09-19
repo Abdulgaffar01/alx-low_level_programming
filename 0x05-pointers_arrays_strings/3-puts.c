@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * _puts - function that prints the characters in a given address
