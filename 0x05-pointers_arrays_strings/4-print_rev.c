@@ -1,24 +1,24 @@
 #include"main.h"
 
+
+
 /**
- * print_rev - function that prints the characters in a given address
- * in reverse
- * @s: address of the character sequence
+ * print_rev - Prints a string in reverse.
+ * @s: The string to be printed.
  */
 
 void print_rev(char *s)
 
 {
-int len;
+int len = 0, index;
 
-for (len = 0; s[len] != '\0'; len++)
+while (s[index++])
 
-;
-while (len > 0)
+len++;
+for (index = len - 1; index >= 0; index--)
 
-len--;
-_putchar(s[len]);
+_putchar(s[index]);
 
-}
 _putchar('\n');
+
 }
