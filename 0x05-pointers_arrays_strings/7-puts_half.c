@@ -2,9 +2,9 @@
 
 
 /**
-*#uts_half - function that prints half of character sequence
+*puts_half - function that prints half of character sequence
 * @str: address of the character sequence
- */
+*/
 
 void puts_half(char *str)
 {
