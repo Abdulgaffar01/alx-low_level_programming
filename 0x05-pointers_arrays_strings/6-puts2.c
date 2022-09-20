@@ -1,20 +1,27 @@
-#include"main.h"
+#include "holberton.h"
+
 
 /**
- * puts2 - function that character sequence by
- * skipping subsequent ones.
- * @str: address of the character sequence
+ * puts_half - print second half of a string
+ * @str: char array string type
+ * Description: If odd number of chars, print (length - 1) / 2
  */
 
-void puts2(char *str)
+
+void puts_half(char *str)
+
 {
+int i;
 
-int len;
-for (len = 0; str[len] != '\0'; len++)
+for (i = 0; str[i] != '\0'; i++)
 
-if (len % 2 == 0)
+;
 
-_putchar(str[len]);
+i++;
+for (i /= 2; str[i] != '\0'; i++)
+
+{
+_putchar(str[i]);
 }
 _putchar('\n');
 }
