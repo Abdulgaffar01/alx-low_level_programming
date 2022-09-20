@@ -1,27 +1,25 @@
-#include "main.h"
+#include"main.h"
 
 
 /**
- * puts_half - print second half of a string
- * @str: char array string type
- * Description: If odd number of chars, print (length - 1) / 2
+ * puts2 - function that character sequence by
+ * skipping subsequent ones.
+ * @str: address of the character sequence
  */
 
 
-void puts_half(char *str)
+void puts2(char *str)
 
 {
-int i;
 
-for (i = 0; str[i] != '\0'; i++)
-
-;
-
-i++;
-for (i /= 2; str[i] != '\0'; i++)
+int len;
+for (len = 0; str[len] != '\0'; len++)
 
 {
-_putchar(str[i]);
+if (len % 2 == 0)
+
+_putchar(str[len]);
 }
 _putchar('\n');
+
 }
