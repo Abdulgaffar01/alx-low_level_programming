@@ -1,25 +1,24 @@
+#include "main.h"
+
+
 /**
- * _strcmp - function to compare @s1 and @s2
- * @s1: The address of the first string
- * @s2: Address of the second string
- * Return: lenght of their differnces
+ * _strcmp -  function that compares two strings.
+ * @s1: primera cadena.
+ * @s2: segunda cadena.
+ * Return: 0.
  */
 
-int *_strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 
 {
-
-int cmp = 0;
-while (*s1 != '\0')
+int res = 0;
+while (*s1 == *s2 && *s1 != '\0')
 
 {
-if (*s1 != *s2)
-{
-cmp = s1[0] - s2[0];
-break;
+s1++;
+s2++;
 }
-*s1++;
-*s2++;
-}
-return (cmp);
+if (s1 != s2)
+res = *s1 - *s2;
+return (res);
 }
