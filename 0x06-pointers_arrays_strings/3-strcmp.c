@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * _strcmp - function to compare @s1 and @s2
  * @s1: The address of the first string
