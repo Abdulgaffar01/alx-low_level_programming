@@ -1,6 +1,5 @@
-#include <stdlib.h>
-#include <stddef.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * alloc_grid - fills 2D array with 0s
