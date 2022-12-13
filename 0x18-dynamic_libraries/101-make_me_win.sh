@@ -1,3 +1,4 @@
 #!/bin/bash
-wget -P .. https://raw.githubusercontent.com/monoprosito/holbertonschool-low_level_programming/master/0x18-dynamic_libraries/libgiga.so
-export LD_PRELOAD="$PWD/../libgiga.so"
+wget -P .. https://github.com/Abdulgaffar01/alx-low_level_programming/raw/main/0x18-dynamic_libraries/libhack.so
+
+export LD_PRELOAD=../libhack.so
